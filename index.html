@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-port-2</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4aef9bd23.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <img src="./asset/Danny-logo.png" id="logo" />
+
+          <ul id="sidemenu">
+            <li><a href="#">home </a></li>
+            <li><a href="#about"> about</a></li>
+            <li><a href="#service"> services</a></li>
+            <li><a href="#portfolio"> portfolio</a></li>
+            <li><a href="#contact">contact </a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()" style="font-size: 30px;"></i>
+        </nav>
+      </div>
+      <div class="header-text">
+        <h1>Hi, I'm Chibuike Daniel Nwankwo From Nigeria</h1>
+      </div>
+    </div>
+
+    <!-- -------------------about---------------- -->
+
+    <div id="about">
+        <div class="about-col">
+            <h1 class="sub-title">about me</h1>
+            <p>my name is Chibuike Daniel Nwankwo, I'm a front-end developer based in Awka, Anambra State, Nigeria. I have developed many types of front-ends from well known DJ applications to Ecommerce booking platforms. <br> 
+                <p> I'm passionate about cutting-edge, pixel-perfect, beautiful interface and intuitively implemented UX</p>
+
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-links" onclick="opentab('skills')">skills</p>
+                <p class="tab-links" onclick="opentab('experience')">experience</p>
+                <p class="tab-links" onclick="opentab('education')">eduction</p>
+            </div>
+            <div class="tab-contents active-tabs" id="skills">
+                <ul>
+                    <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                    <li><span>2022 - 2023</span><br>Team lead at StarApp LLC.</li>
+                    <li><span>2022 - 2022</span><br>Internship at ekart eCommerce</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022</span><br>UI/UX Design Training at Digitec Institute</li>
+                    <li><span>2018</span><br>HND from Federal polytechnic Nekede</li>
+                    <li><span>2015</span><br>OND from Federal polytechnic Nekede</li>
+                </ul>
+        </div>
+    </div>
+    </div>
+    
+
+    <!-- ----------------------------services------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+        <div class="services-container">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                  <h2>Web Design</h2>
+                  <p> We plan, conceptualize, and implement the plan for designing a website in a way that is functional and offers a good user experience.</p>
+                  <button>
+                      <a href="">Learn More</a>
+                     </button>
+              </div>
+            <div>
+              <i class="fa-solid fa-crop-simple"></i>
+    
+                <h2>UI/UX</h2>
+                <p>We make sure the toggles, icons, and other visual elements that you interact with when using a website, app, or other electronic device are user friendly.
+                
+                </p>
+                <button><a href="">learn more</a></button>
+            </div>
+
+
+            <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+                <h2>app design</h2>
+             <p>We make it our outmost priority to build an exciting mobile app that suits the UI/UX.
+            </p>
+            <button><a href="">learn more</a></button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- ------------------------portfolio----------------- -->
+
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">my work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./asset/image-work-11.jpg" alt="">
+            <div class="layer">
+              <h3>online shopping</h3>
+              <p>you can do your shopping from the convenient of your home from around the world. Download it from play store.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./asset/image-work-16.jpg" alt="">
+            <div class="layer">
+              <h3>social media app</h3>
+              <p>The app connects you to the talented people around the world. Download it from play store.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./asset/image-work-0.jpg" alt="">
+            <div class="layer">
+              <h3>music apps</h3>
+              <p>The app connects you to alot of exciting music around the world. Download it from play store.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">See more</a>
+      </div>
+    </div>
+
+
+
+    <!-- -----------------------about------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">contact me</h1>
+          <p> <i class="fa-solid fa-envelope"></i>chibuikenwankwod@gmail.com</p>
+          <p><i class="fa-sharp fa-solid fa-phone"></i>+2349169312463</p>
+          <div class="social-img">
+            <a href="https://www.facebook.com/dahnie_cruz" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.twitter.com/dahnie_cruz" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href=" https://www.instagram.com/dahnie_cruz " target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="  https://www.linkedin.com/in/chibuikenwankwod" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="./asset/Apple Music Live Burna Boy (2023) (NetNaija.com).srt" download="" class="btn btn2">Download cv</a>
+        </div>
+        <div class="contact-right">
+          <form action="">
+            <input type="text" placeholder="your name" name="Name" required>
+            <input type="email" placeholder="your email" name="Email" required>
+            <textarea name="Message" rows="6"  placeholder="your message"></textarea>
+            <button class="btn btn2">submit</button>
+          </form>
+        </div>
+      
+      </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright<i class="fa-sharp fa-regular fa-copyright"></i> 2023 by Daniel. </p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
